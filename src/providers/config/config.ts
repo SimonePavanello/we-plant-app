@@ -10,9 +10,9 @@ import {Injectable} from '@angular/core';
 @Injectable()
 export class ConfigProvider {
 
-  public serverUrl = "https://www.api.weplant.nino.cloud"
-  public nodeUrl = "http://www.weplant.nino.cloud:3000"
-  public qrCodePrefix = "https://www.weplant.nino.cloud/#/intro?plant-id="
+  public serverUrl = "http://maven"
+  public nodeUrl = "http://yarn:3000"
+  public qrCodePrefix = "https://maven/#/intro?plant-id="
 
   userToken: string;
   initalDate: string = "2000-01-01T06:00:00+02:00";
