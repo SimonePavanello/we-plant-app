@@ -10,8 +10,8 @@ import {Injectable} from '@angular/core';
 @Injectable()
 export class ConfigProvider {
 
-  public serverUrl = "http://maven"
-  public nodeUrl = "http://yarn:3000"
+  public serverUrl = "http://localhost"
+  public nodeUrl = "http://localhost:3000"
   public qrCodePrefix = "https://maven/#/intro?plant-id="
 
   userToken: string;
